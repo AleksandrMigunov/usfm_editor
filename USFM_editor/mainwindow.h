@@ -167,6 +167,12 @@ private slots:
 
     void on_actionHide_file_paths_and_names_triggered();
 
+    void on_textEdit_Text_1_selectionChanged();
+
+    void on_textEdit_Text_2_selectionChanged();
+
+    void on_textEdit_Text_3_selectionChanged();
+
     void on_actionAbout_Qt_triggered();
 
 private:
@@ -179,6 +185,7 @@ private:
     QString file_3;
     void writeSettings();
     void search_word(QString document_name);
+    void textEdit_focused(QString textEditName);
 };
 
 #endif // MAINWINDOW_H

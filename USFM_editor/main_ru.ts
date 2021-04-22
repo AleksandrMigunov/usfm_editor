@@ -119,25 +119,25 @@
     </message>
     <message>
         <location filename="mainwindow.ui" line="98"/>
-        <location filename="mainwindow.cpp" line="675"/>
-        <location filename="mainwindow.cpp" line="750"/>
-        <location filename="mainwindow.cpp" line="825"/>
+        <location filename="mainwindow.cpp" line="772"/>
+        <location filename="mainwindow.cpp" line="849"/>
+        <location filename="mainwindow.cpp" line="926"/>
         <source>New</source>
         <translation>Новый</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="106"/>
-        <location filename="mainwindow.cpp" line="678"/>
-        <location filename="mainwindow.cpp" line="753"/>
-        <location filename="mainwindow.cpp" line="828"/>
+        <location filename="mainwindow.cpp" line="775"/>
+        <location filename="mainwindow.cpp" line="852"/>
+        <location filename="mainwindow.cpp" line="929"/>
         <source>Open</source>
         <translation>Открыть</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="114"/>
-        <location filename="mainwindow.cpp" line="681"/>
-        <location filename="mainwindow.cpp" line="756"/>
-        <location filename="mainwindow.cpp" line="831"/>
+        <location filename="mainwindow.cpp" line="778"/>
+        <location filename="mainwindow.cpp" line="855"/>
+        <location filename="mainwindow.cpp" line="932"/>
         <source>Save</source>
         <translation>Сохранить</translation>
     </message>
@@ -148,73 +148,73 @@
     </message>
     <message>
         <location filename="mainwindow.ui" line="133"/>
-        <location filename="mainwindow.cpp" line="684"/>
-        <location filename="mainwindow.cpp" line="759"/>
-        <location filename="mainwindow.cpp" line="834"/>
+        <location filename="mainwindow.cpp" line="781"/>
+        <location filename="mainwindow.cpp" line="858"/>
+        <location filename="mainwindow.cpp" line="935"/>
         <source>Undo</source>
         <translation>Отменить</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="141"/>
-        <location filename="mainwindow.cpp" line="687"/>
-        <location filename="mainwindow.cpp" line="762"/>
-        <location filename="mainwindow.cpp" line="837"/>
+        <location filename="mainwindow.cpp" line="784"/>
+        <location filename="mainwindow.cpp" line="861"/>
+        <location filename="mainwindow.cpp" line="938"/>
         <source>Redo</source>
         <translation>Вернуть</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="149"/>
-        <location filename="mainwindow.cpp" line="690"/>
-        <location filename="mainwindow.cpp" line="765"/>
-        <location filename="mainwindow.cpp" line="840"/>
+        <location filename="mainwindow.cpp" line="787"/>
+        <location filename="mainwindow.cpp" line="864"/>
+        <location filename="mainwindow.cpp" line="941"/>
         <source>Cut</source>
         <translation>Вырезать</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="157"/>
-        <location filename="mainwindow.cpp" line="693"/>
-        <location filename="mainwindow.cpp" line="768"/>
-        <location filename="mainwindow.cpp" line="843"/>
+        <location filename="mainwindow.cpp" line="790"/>
+        <location filename="mainwindow.cpp" line="867"/>
+        <location filename="mainwindow.cpp" line="944"/>
         <source>Copy</source>
         <translation>Копировать</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="165"/>
-        <location filename="mainwindow.cpp" line="696"/>
-        <location filename="mainwindow.cpp" line="771"/>
-        <location filename="mainwindow.cpp" line="846"/>
+        <location filename="mainwindow.cpp" line="793"/>
+        <location filename="mainwindow.cpp" line="870"/>
+        <location filename="mainwindow.cpp" line="947"/>
         <source>Paste</source>
         <translation>Вставить</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="173"/>
-        <location filename="mainwindow.cpp" line="699"/>
-        <location filename="mainwindow.cpp" line="774"/>
-        <location filename="mainwindow.cpp" line="849"/>
+        <location filename="mainwindow.cpp" line="796"/>
+        <location filename="mainwindow.cpp" line="873"/>
+        <location filename="mainwindow.cpp" line="950"/>
         <source>Select All</source>
         <translation>Выделить всё</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="181"/>
-        <location filename="mainwindow.cpp" line="714"/>
-        <location filename="mainwindow.cpp" line="789"/>
-        <location filename="mainwindow.cpp" line="864"/>
+        <location filename="mainwindow.cpp" line="811"/>
+        <location filename="mainwindow.cpp" line="888"/>
+        <location filename="mainwindow.cpp" line="965"/>
         <source>Find</source>
         <translation>Найти</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="189"/>
-        <location filename="mainwindow.cpp" line="717"/>
-        <location filename="mainwindow.cpp" line="792"/>
-        <location filename="mainwindow.cpp" line="867"/>
+        <location filename="mainwindow.cpp" line="814"/>
+        <location filename="mainwindow.cpp" line="891"/>
+        <location filename="mainwindow.cpp" line="968"/>
         <source>Find and Replace</source>
         <translation>Найти и заменить</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="197"/>
-        <location filename="mainwindow.cpp" line="720"/>
-        <location filename="mainwindow.cpp" line="795"/>
-        <location filename="mainwindow.cpp" line="870"/>
+        <location filename="mainwindow.cpp" line="817"/>
+        <location filename="mainwindow.cpp" line="894"/>
+        <location filename="mainwindow.cpp" line="971"/>
         <source>Find and Replace All</source>
         <translation>Найти и заменить всё</translation>
     </message>
@@ -250,33 +250,33 @@
     </message>
     <message>
         <location filename="mainwindow.ui" line="265"/>
-        <location filename="mainwindow.cpp" line="702"/>
-        <location filename="mainwindow.cpp" line="777"/>
-        <location filename="mainwindow.cpp" line="852"/>
+        <location filename="mainwindow.cpp" line="799"/>
+        <location filename="mainwindow.cpp" line="876"/>
+        <location filename="mainwindow.cpp" line="953"/>
         <source>Zoom In</source>
         <translation>Увеличить</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="273"/>
-        <location filename="mainwindow.cpp" line="705"/>
-        <location filename="mainwindow.cpp" line="780"/>
-        <location filename="mainwindow.cpp" line="855"/>
+        <location filename="mainwindow.cpp" line="802"/>
+        <location filename="mainwindow.cpp" line="879"/>
+        <location filename="mainwindow.cpp" line="956"/>
         <source>Zoom Out</source>
         <translation>Уменьшить</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="281"/>
-        <location filename="mainwindow.cpp" line="708"/>
-        <location filename="mainwindow.cpp" line="783"/>
-        <location filename="mainwindow.cpp" line="858"/>
+        <location filename="mainwindow.cpp" line="805"/>
+        <location filename="mainwindow.cpp" line="882"/>
+        <location filename="mainwindow.cpp" line="959"/>
         <source>Formatted USFM</source>
         <translation>Форматированный USFM</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="289"/>
-        <location filename="mainwindow.cpp" line="711"/>
-        <location filename="mainwindow.cpp" line="786"/>
-        <location filename="mainwindow.cpp" line="861"/>
+        <location filename="mainwindow.cpp" line="808"/>
+        <location filename="mainwindow.cpp" line="885"/>
+        <location filename="mainwindow.cpp" line="962"/>
         <source>Unformatted USFM</source>
         <translation>Неформатированный USFM</translation>
     </message>
@@ -617,123 +617,123 @@
     </message>
     <message>
         <location filename="mainwindow.cpp" line="64"/>
-        <location filename="mainwindow.cpp" line="80"/>
-        <location filename="mainwindow.cpp" line="95"/>
-        <location filename="mainwindow.cpp" line="110"/>
-        <location filename="mainwindow.cpp" line="998"/>
-        <location filename="mainwindow.cpp" line="1146"/>
+        <location filename="mainwindow.cpp" line="82"/>
+        <location filename="mainwindow.cpp" line="99"/>
+        <location filename="mainwindow.cpp" line="116"/>
+        <location filename="mainwindow.cpp" line="1099"/>
         <location filename="mainwindow.cpp" line="1256"/>
-        <location filename="mainwindow.cpp" line="1365"/>
+        <location filename="mainwindow.cpp" line="1368"/>
+        <location filename="mainwindow.cpp" line="1479"/>
         <source>Yes</source>
         <translation>Да</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="65"/>
-        <location filename="mainwindow.cpp" line="81"/>
-        <location filename="mainwindow.cpp" line="96"/>
-        <location filename="mainwindow.cpp" line="111"/>
-        <location filename="mainwindow.cpp" line="999"/>
-        <location filename="mainwindow.cpp" line="1147"/>
+        <location filename="mainwindow.cpp" line="83"/>
+        <location filename="mainwindow.cpp" line="100"/>
+        <location filename="mainwindow.cpp" line="117"/>
+        <location filename="mainwindow.cpp" line="1100"/>
         <location filename="mainwindow.cpp" line="1257"/>
-        <location filename="mainwindow.cpp" line="1366"/>
+        <location filename="mainwindow.cpp" line="1369"/>
+        <location filename="mainwindow.cpp" line="1480"/>
         <source>No</source>
         <translation>Нет</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="78"/>
-        <location filename="mainwindow.cpp" line="93"/>
-        <location filename="mainwindow.cpp" line="108"/>
+        <location filename="mainwindow.cpp" line="80"/>
+        <location filename="mainwindow.cpp" line="97"/>
+        <location filename="mainwindow.cpp" line="114"/>
         <source>Clear Text</source>
         <translation>Удалить текст</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="78"/>
-        <location filename="mainwindow.cpp" line="93"/>
-        <location filename="mainwindow.cpp" line="108"/>
+        <location filename="mainwindow.cpp" line="80"/>
+        <location filename="mainwindow.cpp" line="97"/>
+        <location filename="mainwindow.cpp" line="114"/>
         <source>Do you want to clear the text?</source>
         <translation>Вы хотите удалить текст?</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="123"/>
-        <location filename="mainwindow.cpp" line="156"/>
-        <location filename="mainwindow.cpp" line="189"/>
-        <location filename="mainwindow.cpp" line="588"/>
-        <location filename="mainwindow.cpp" line="638"/>
+        <location filename="mainwindow.cpp" line="131"/>
+        <location filename="mainwindow.cpp" line="166"/>
+        <location filename="mainwindow.cpp" line="201"/>
+        <location filename="mainwindow.cpp" line="683"/>
+        <location filename="mainwindow.cpp" line="733"/>
         <source>Open file</source>
         <translation>Открыть файл</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="516"/>
+        <location filename="mainwindow.cpp" line="600"/>
         <source>Copyright (C) 2021 Aleksandr Migunov</source>
         <translation>Copyright (C) 2021 Александр Мигунов</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="901"/>
-        <location filename="mainwindow.cpp" line="909"/>
+        <location filename="mainwindow.cpp" line="1002"/>
+        <location filename="mainwindow.cpp" line="1010"/>
         <source>Language change</source>
         <translation>Изменение языка</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="902"/>
-        <location filename="mainwindow.cpp" line="910"/>
+        <location filename="mainwindow.cpp" line="1003"/>
+        <location filename="mainwindow.cpp" line="1011"/>
         <source>Interface language will be changed after the program restarts.</source>
         <translation>Язык интерфейса будет изменен при повторном запуске программы.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="150"/>
-        <location filename="mainwindow.cpp" line="183"/>
-        <location filename="mainwindow.cpp" line="216"/>
-        <location filename="mainwindow.cpp" line="248"/>
-        <location filename="mainwindow.cpp" line="280"/>
-        <location filename="mainwindow.cpp" line="312"/>
+        <location filename="mainwindow.cpp" line="158"/>
+        <location filename="mainwindow.cpp" line="193"/>
+        <location filename="mainwindow.cpp" line="228"/>
+        <location filename="mainwindow.cpp" line="262"/>
+        <location filename="mainwindow.cpp" line="296"/>
+        <location filename="mainwindow.cpp" line="330"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="124"/>
-        <location filename="mainwindow.cpp" line="157"/>
-        <location filename="mainwindow.cpp" line="190"/>
-        <location filename="mainwindow.cpp" line="223"/>
-        <location filename="mainwindow.cpp" line="255"/>
-        <location filename="mainwindow.cpp" line="287"/>
-        <location filename="mainwindow.cpp" line="589"/>
-        <location filename="mainwindow.cpp" line="639"/>
+        <location filename="mainwindow.cpp" line="132"/>
+        <location filename="mainwindow.cpp" line="167"/>
+        <location filename="mainwindow.cpp" line="202"/>
+        <location filename="mainwindow.cpp" line="237"/>
+        <location filename="mainwindow.cpp" line="271"/>
+        <location filename="mainwindow.cpp" line="305"/>
+        <location filename="mainwindow.cpp" line="684"/>
+        <location filename="mainwindow.cpp" line="734"/>
         <source>Paratext Files (*.SFM *.sfm);;HTML Files (*.html *.htm);;Text Files (*.txt)</source>
         <translation>Файлы Paratext (*.SFM *.sfm);;Файлы HTML (*.html *.htm);;Текстовые файлы (*.txt)</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="150"/>
-        <location filename="mainwindow.cpp" line="183"/>
-        <location filename="mainwindow.cpp" line="216"/>
+        <location filename="mainwindow.cpp" line="158"/>
+        <location filename="mainwindow.cpp" line="193"/>
+        <location filename="mainwindow.cpp" line="228"/>
         <source>Unable to open file.</source>
         <translation>Невозможно открыть файл.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="222"/>
-        <location filename="mainwindow.cpp" line="254"/>
-        <location filename="mainwindow.cpp" line="286"/>
+        <location filename="mainwindow.cpp" line="236"/>
+        <location filename="mainwindow.cpp" line="270"/>
+        <location filename="mainwindow.cpp" line="304"/>
         <source>Save file</source>
         <translation>Сохранить файл</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="248"/>
-        <location filename="mainwindow.cpp" line="280"/>
-        <location filename="mainwindow.cpp" line="312"/>
+        <location filename="mainwindow.cpp" line="262"/>
+        <location filename="mainwindow.cpp" line="296"/>
+        <location filename="mainwindow.cpp" line="330"/>
         <source>Unable to save file.</source>
         <translation>Невозможно сохранить файл.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="435"/>
-        <location filename="mainwindow.cpp" line="443"/>
-        <location filename="mainwindow.cpp" line="451"/>
-        <location filename="mainwindow.cpp" line="459"/>
-        <location filename="mainwindow.cpp" line="467"/>
-        <location filename="mainwindow.cpp" line="475"/>
+        <location filename="mainwindow.cpp" line="497"/>
+        <location filename="mainwindow.cpp" line="507"/>
+        <location filename="mainwindow.cpp" line="517"/>
+        <location filename="mainwindow.cpp" line="527"/>
+        <location filename="mainwindow.cpp" line="537"/>
+        <location filename="mainwindow.cpp" line="547"/>
         <source>Choose Color</source>
         <translation>Выберите цвет</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="514"/>
+        <location filename="mainwindow.cpp" line="598"/>
         <source>Program for editing Bible texts</source>
         <translation>Программа для редактирования библейских текстов</translation>
     </message>
@@ -746,107 +746,107 @@
         <translation type="vanished">Разработчик: Александр Мигунов, 2021</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="532"/>
+        <location filename="mainwindow.cpp" line="616"/>
         <source>About Program</source>
         <translation>О программе</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="983"/>
-        <location filename="mainwindow.cpp" line="1126"/>
+        <location filename="mainwindow.cpp" line="1084"/>
         <location filename="mainwindow.cpp" line="1236"/>
-        <location filename="mainwindow.cpp" line="1345"/>
+        <location filename="mainwindow.cpp" line="1348"/>
+        <location filename="mainwindow.cpp" line="1459"/>
         <source>Not found</source>
         <translation>Не найдено</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="984"/>
-        <location filename="mainwindow.cpp" line="1127"/>
+        <location filename="mainwindow.cpp" line="1085"/>
         <location filename="mainwindow.cpp" line="1237"/>
-        <location filename="mainwindow.cpp" line="1346"/>
+        <location filename="mainwindow.cpp" line="1349"/>
+        <location filename="mainwindow.cpp" line="1460"/>
         <source>The word was not found</source>
         <translation>Слово не найдено</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="995"/>
-        <location filename="mainwindow.cpp" line="1143"/>
+        <location filename="mainwindow.cpp" line="1096"/>
         <location filename="mainwindow.cpp" line="1253"/>
-        <location filename="mainwindow.cpp" line="1362"/>
+        <location filename="mainwindow.cpp" line="1365"/>
+        <location filename="mainwindow.cpp" line="1476"/>
         <source>Continue?</source>
         <translation>Продолжить?</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="995"/>
+        <location filename="mainwindow.cpp" line="1096"/>
         <source>Find next?</source>
         <translation>Найти следующее?</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1000"/>
-        <location filename="mainwindow.cpp" line="1148"/>
+        <location filename="mainwindow.cpp" line="1101"/>
         <location filename="mainwindow.cpp" line="1258"/>
-        <location filename="mainwindow.cpp" line="1367"/>
+        <location filename="mainwindow.cpp" line="1370"/>
+        <location filename="mainwindow.cpp" line="1481"/>
         <source>Cancel</source>
         <translation>Отменить</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1023"/>
-        <location filename="mainwindow.cpp" line="1168"/>
+        <location filename="mainwindow.cpp" line="1124"/>
         <location filename="mainwindow.cpp" line="1278"/>
-        <location filename="mainwindow.cpp" line="1387"/>
+        <location filename="mainwindow.cpp" line="1390"/>
+        <location filename="mainwindow.cpp" line="1501"/>
         <source>End of search</source>
         <translation>Конец поиска</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1024"/>
-        <location filename="mainwindow.cpp" line="1169"/>
+        <location filename="mainwindow.cpp" line="1125"/>
         <location filename="mainwindow.cpp" line="1279"/>
-        <location filename="mainwindow.cpp" line="1388"/>
+        <location filename="mainwindow.cpp" line="1391"/>
+        <location filename="mainwindow.cpp" line="1502"/>
         <source>End of search is reached</source>
         <translation>Достигнут конец поиска</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1036"/>
-        <location filename="mainwindow.cpp" line="1047"/>
-        <location filename="mainwindow.cpp" line="1059"/>
-        <location filename="mainwindow.cpp" line="1071"/>
+        <location filename="mainwindow.cpp" line="1139"/>
+        <location filename="mainwindow.cpp" line="1153"/>
+        <location filename="mainwindow.cpp" line="1167"/>
         <location filename="mainwindow.cpp" line="1181"/>
-        <location filename="mainwindow.cpp" line="1290"/>
-        <location filename="mainwindow.cpp" line="1399"/>
-        <location filename="mainwindow.cpp" line="1421"/>
-        <location filename="mainwindow.cpp" line="1443"/>
+        <location filename="mainwindow.cpp" line="1293"/>
+        <location filename="mainwindow.cpp" line="1404"/>
+        <location filename="mainwindow.cpp" line="1515"/>
+        <location filename="mainwindow.cpp" line="1539"/>
+        <location filename="mainwindow.cpp" line="1563"/>
         <source>Warning</source>
         <translation>Предупреждение</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1036"/>
-        <location filename="mainwindow.cpp" line="1047"/>
-        <location filename="mainwindow.cpp" line="1059"/>
-        <location filename="mainwindow.cpp" line="1071"/>
+        <location filename="mainwindow.cpp" line="1139"/>
+        <location filename="mainwindow.cpp" line="1153"/>
+        <location filename="mainwindow.cpp" line="1167"/>
         <location filename="mainwindow.cpp" line="1181"/>
-        <location filename="mainwindow.cpp" line="1290"/>
-        <location filename="mainwindow.cpp" line="1399"/>
-        <location filename="mainwindow.cpp" line="1421"/>
-        <location filename="mainwindow.cpp" line="1443"/>
+        <location filename="mainwindow.cpp" line="1293"/>
+        <location filename="mainwindow.cpp" line="1404"/>
+        <location filename="mainwindow.cpp" line="1515"/>
+        <location filename="mainwindow.cpp" line="1539"/>
+        <location filename="mainwindow.cpp" line="1563"/>
         <source>File is not open</source>
         <translation>Файл не был открыт</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1143"/>
         <location filename="mainwindow.cpp" line="1253"/>
-        <location filename="mainwindow.cpp" line="1362"/>
+        <location filename="mainwindow.cpp" line="1365"/>
+        <location filename="mainwindow.cpp" line="1476"/>
         <source>Find and replace next?</source>
         <translation>Найти и заменить следующее?</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1413"/>
-        <location filename="mainwindow.cpp" line="1435"/>
-        <location filename="mainwindow.cpp" line="1457"/>
+        <location filename="mainwindow.cpp" line="1529"/>
+        <location filename="mainwindow.cpp" line="1553"/>
+        <location filename="mainwindow.cpp" line="1577"/>
         <source>Found and replaced</source>
         <translation>Найти и заменить</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="1413"/>
-        <location filename="mainwindow.cpp" line="1435"/>
-        <location filename="mainwindow.cpp" line="1457"/>
+        <location filename="mainwindow.cpp" line="1529"/>
+        <location filename="mainwindow.cpp" line="1553"/>
+        <location filename="mainwindow.cpp" line="1577"/>
         <source>Find and replace all are done</source>
         <translation>Найти и заменить всё выполнено</translation>
     </message>

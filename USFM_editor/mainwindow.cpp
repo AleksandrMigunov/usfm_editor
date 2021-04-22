@@ -75,6 +75,8 @@ void MainWindow::closeEvent(QCloseEvent *event) {
 
 void MainWindow::on_actionNew_Text_1_triggered()
 {
+    textEdit_focused("Text 1");
+
     QMessageBox* messagebox = new QMessageBox (QMessageBox::Question, tr("Clear Text"), tr("Do you want to clear the text?"),
                                    QMessageBox::No | QMessageBox::Yes, this);
     messagebox->setButtonText(QMessageBox::Yes, tr("Yes"));
@@ -90,6 +92,8 @@ void MainWindow::on_actionNew_Text_1_triggered()
 
 void MainWindow::on_actionNew_Text_2_triggered()
 {
+    textEdit_focused("Text 2");
+
     QMessageBox* messagebox = new QMessageBox (QMessageBox::Question, tr("Clear Text"), tr("Do you want to clear the text?"),
                                    QMessageBox::No | QMessageBox::Yes, this);
     messagebox->setButtonText(QMessageBox::Yes, tr("Yes"));
@@ -105,6 +109,8 @@ void MainWindow::on_actionNew_Text_2_triggered()
 
 void MainWindow::on_actionNew_Text_3_triggered()
 {
+    textEdit_focused("Text 3");
+
     QMessageBox* messagebox = new QMessageBox (QMessageBox::Question, tr("Clear Text"), tr("Do you want to clear the text?"),
                                    QMessageBox::No | QMessageBox::Yes, this);
     messagebox->setButtonText(QMessageBox::Yes, tr("Yes"));
@@ -120,6 +126,8 @@ void MainWindow::on_actionNew_Text_3_triggered()
 
 void MainWindow::on_actionOpen_Text_1_triggered()
 {
+    textEdit_focused("Text 1");
+
     QString file = QFileDialog::getOpenFileName(this, tr("Open file"), "",
                                               tr("Paratext Files (*.SFM *.sfm);;HTML Files (*.html *.htm);;Text Files (*.txt)"));
 
@@ -153,6 +161,8 @@ void MainWindow::on_actionOpen_Text_1_triggered()
 
 void MainWindow::on_actionOpen_Text_2_triggered()
 {
+    textEdit_focused("Text 2");
+
     QString file = QFileDialog::getOpenFileName(this, tr("Open file"), "",
                                               tr("Paratext Files (*.SFM *.sfm);;HTML Files (*.html *.htm);;Text Files (*.txt)"));
 
@@ -186,6 +196,8 @@ void MainWindow::on_actionOpen_Text_2_triggered()
 
 void MainWindow::on_actionOpen_Text_3_triggered()
 {
+    textEdit_focused("Text 3");
+
     QString file = QFileDialog::getOpenFileName(this, tr("Open file"), "",
                                               tr("Paratext Files (*.SFM *.sfm);;HTML Files (*.html *.htm);;Text Files (*.txt)"));
 
@@ -219,6 +231,8 @@ void MainWindow::on_actionOpen_Text_3_triggered()
 
 void MainWindow::on_actionSave_Text_1_triggered()
 {
+    textEdit_focused("Text 1");
+
     QString file = QFileDialog::getSaveFileName(this, tr("Save file"), "",
                                               tr("Paratext Files (*.SFM *.sfm);;HTML Files (*.html *.htm);;Text Files (*.txt)"));
 
@@ -251,6 +265,8 @@ void MainWindow::on_actionSave_Text_1_triggered()
 
 void MainWindow::on_actionSave_Text_2_triggered()
 {
+    textEdit_focused("Text 2");
+
     QString file = QFileDialog::getSaveFileName(this, tr("Save file"), "",
                                               tr("Paratext Files (*.SFM *.sfm);;HTML Files (*.html *.htm);;Text Files (*.txt)"));
 
@@ -283,6 +299,8 @@ void MainWindow::on_actionSave_Text_2_triggered()
 
 void MainWindow::on_actionSave_Text_3_triggered()
 {
+    textEdit_focused("Text 3");
+
     QString file = QFileDialog::getSaveFileName(this, tr("Save file"), "",
                                               tr("Paratext Files (*.SFM *.sfm);;HTML Files (*.html *.htm);;Text Files (*.txt)"));
 
@@ -315,96 +333,134 @@ void MainWindow::on_actionSave_Text_3_triggered()
 
 void MainWindow::on_actionUndo_in_Text_1_triggered()
 {
+    textEdit_focused("Text 1");
+
     ui->textEdit_Text_1->undo();
 }
 
 void MainWindow::on_actionUndo_in_Text_2_triggered()
 {
+    textEdit_focused("Text 2");
+
     ui->textEdit_Text_2->undo();
 }
 
 void MainWindow::on_actionUndo_in_Text_3_triggered()
 {
+    textEdit_focused("Text 3");
+
     ui->textEdit_Text_3->undo();
 }
 
 void MainWindow::on_actionRedo_in_Text_1_triggered()
 {
+    textEdit_focused("Text 1");
+
     ui->textEdit_Text_1->redo();
 }
 
 void MainWindow::on_actionRedo_in_Text_2_triggered()
 {
+    textEdit_focused("Text 2");
+
     ui->textEdit_Text_2->redo();
 }
 
 void MainWindow::on_actionRedo_in_Text_3_triggered()
 {
+    textEdit_focused("Text 3");
+
     ui->textEdit_Text_3->redo();
 }
 
 void MainWindow::on_actionCut_from_Text_1_triggered()
 {
+    textEdit_focused("Text 1");
+
     ui->textEdit_Text_1->cut();
 }
 
 void MainWindow::on_actionCut_from_Text_2_triggered()
 {
+    textEdit_focused("Text 2");
+
     ui->textEdit_Text_2->cut();
 }
 
 void MainWindow::on_actionCut_from_Text_3_triggered()
 {
+    textEdit_focused("Text 3");
+
     ui->textEdit_Text_3->cut();
 }
 
 void MainWindow::on_actionCopy_from_Text_1_triggered()
 {
+    textEdit_focused("Text 1");
+
     ui->textEdit_Text_1->copy();
 }
 
 void MainWindow::on_actionCopy_from_Text_2_triggered()
 {
+    textEdit_focused("Text 2");
+
     ui->textEdit_Text_2->copy();
 }
 
 void MainWindow::on_actionCopy_from_Text_3_triggered()
 {
+    textEdit_focused("Text 3");
+
     ui->textEdit_Text_3->copy();
 }
 
 void MainWindow::on_actionPaste_into_Text_1_triggered()
 {
+    textEdit_focused("Text 1");
+
     ui->textEdit_Text_1->paste();
 }
 
 void MainWindow::on_actionPaste_into_Text_2_triggered()
 {
+    textEdit_focused("Text 2");
+
     ui->textEdit_Text_2->paste();
 }
 
 void MainWindow::on_actionPaste_into_Text_3_triggered()
 {
+    textEdit_focused("Text 3");
+
     ui->textEdit_Text_3->paste();
 }
 
 void MainWindow::on_actionSelect_All_in_Text_1_triggered()
 {
+    textEdit_focused("Text 1");
+
     ui->textEdit_Text_1->selectAll();
 }
 
 void MainWindow::on_actionSelect_All_in_Text_2_triggered()
 {
+    textEdit_focused("Text 2");
+
     ui->textEdit_Text_2->selectAll();
 }
 
 void MainWindow::on_actionSelect_All_in_Text_3_triggered()
 {
+    textEdit_focused("Text 3");
+
     ui->textEdit_Text_3->selectAll();
 }
 
 void MainWindow::on_actionFont_of_Text_1_triggered()
 {
+    textEdit_focused("Text 1");
+
     bool ok;
     QFont font = QFontDialog::getFont(&ok, this);
     if (ok) {
@@ -414,6 +470,8 @@ void MainWindow::on_actionFont_of_Text_1_triggered()
 
 void MainWindow::on_actionFont_of_Text_2_triggered()
 {
+    textEdit_focused("Text 2");
+
     bool ok;
     QFont font = QFontDialog::getFont(&ok, this);
     if (ok) {
@@ -423,6 +481,8 @@ void MainWindow::on_actionFont_of_Text_2_triggered()
 
 void MainWindow::on_actionFont_of_Text_3_triggered()
 {
+    textEdit_focused("Text 3");
+
     bool ok;
     QFont font = QFontDialog::getFont(&ok, this);
     if (ok) {
@@ -432,6 +492,8 @@ void MainWindow::on_actionFont_of_Text_3_triggered()
 
 void MainWindow::on_actionColor_of_Text_1_triggered()
 {
+    textEdit_focused("Text 1");
+
     QColor color = QColorDialog::getColor(Qt::white, this, tr("Choose Color"));
     if(color.isValid()) {
         ui->textEdit_Text_1->setTextColor(color);
@@ -440,6 +502,8 @@ void MainWindow::on_actionColor_of_Text_1_triggered()
 
 void MainWindow::on_actionColor_of_Text_2_triggered()
 {
+    textEdit_focused("Text 2");
+
     QColor color = QColorDialog::getColor(Qt::white, this, tr("Choose Color"));
     if(color.isValid()) {
         ui->textEdit_Text_2->setTextColor(color);
@@ -448,6 +512,8 @@ void MainWindow::on_actionColor_of_Text_2_triggered()
 
 void MainWindow::on_actionColor_of_Text_3_triggered()
 {
+     textEdit_focused("Text 3");
+
     QColor color = QColorDialog::getColor(Qt::white, this, tr("Choose Color"));
     if(color.isValid()) {
         ui->textEdit_Text_3->setTextColor(color);
@@ -456,6 +522,8 @@ void MainWindow::on_actionColor_of_Text_3_triggered()
 
 void MainWindow::on_actionHighlight_in_Text_1_triggered()
 {
+    textEdit_focused("Text 1");
+
     QColor color = QColorDialog::getColor(Qt::white, this, tr("Choose Color"));
     if(color.isValid()) {
         ui->textEdit_Text_1->setTextBackgroundColor(color);
@@ -464,6 +532,8 @@ void MainWindow::on_actionHighlight_in_Text_1_triggered()
 
 void MainWindow::on_actionHighlight_in_Text_2_triggered()
 {
+    textEdit_focused("Text 2");
+
     QColor color = QColorDialog::getColor(Qt::white, this, tr("Choose Color"));
     if(color.isValid()) {
         ui->textEdit_Text_2->setTextBackgroundColor(color);
@@ -472,6 +542,8 @@ void MainWindow::on_actionHighlight_in_Text_2_triggered()
 
 void MainWindow::on_actionHighlight_in_Text_3_triggered()
 {
+    textEdit_focused("Text 3");
+
     QColor color = QColorDialog::getColor(Qt::white, this, tr("Choose Color"));
     if(color.isValid()) {
         ui->textEdit_Text_3->setTextBackgroundColor(color);
@@ -480,31 +552,43 @@ void MainWindow::on_actionHighlight_in_Text_3_triggered()
 
 void MainWindow::on_actionZoom_In_Text_1_triggered()
 {
+    textEdit_focused("Text 1");
+
     ui->textEdit_Text_1->zoomIn();
 }
 
 void MainWindow::on_actionZoom_In_Text_2_triggered()
 {
+    textEdit_focused("Text 2");
+
     ui->textEdit_Text_2->zoomIn();
 }
 
 void MainWindow::on_actionZoom_In_Text_3_triggered()
 {
+    textEdit_focused("Text 3");
+
     ui->textEdit_Text_3->zoomIn();
 }
 
 void MainWindow::on_actionZoom_Out_Text_1_triggered()
 {
+    textEdit_focused("Text 1");
+
     ui->textEdit_Text_1->zoomOut();
 }
 
 void MainWindow::on_actionZoom_Out_Text_2_triggered()
 {
+    textEdit_focused("Text 2");
+
     ui->textEdit_Text_2->zoomOut();
 }
 
 void MainWindow::on_actionZoom_Out_Text_3_triggered()
 {
+    textEdit_focused("Text 3");
+
     ui->textEdit_Text_3->zoomOut();
 }
 
@@ -537,36 +621,47 @@ void MainWindow::on_actionAbout_Qt_triggered()
     QMessageBox::aboutQt(0);
 }
 
-
 void MainWindow::on_actionFormatted_Text_1_triggered()
 {
+    textEdit_focused("Text 1");
+
     formatted("Text_1");
 }
 
 
 void MainWindow::on_actionFormatted_Text_2_triggered()
 {
+    textEdit_focused("Text 2");
+
     formatted("Text_2");
 }
 
 
 void MainWindow::on_actionFormatted_Text_3_triggered()
 {
+    textEdit_focused("Text 3");
+
     formatted("Text_3");
 }
 
 void MainWindow::on_actionUnformatted_Text_1_triggered()
 {
+    textEdit_focused("Text 1");
+
     unformatted("Text_1");
 }
 
 void MainWindow::on_actionUnformatted_Text_2_triggered()
 {
+    textEdit_focused("Text 2");
+
     unformatted("Text_2");
 }
 
 void MainWindow::on_actionUnformatted_Text_3_triggered()
 {
+    textEdit_focused("Text 3");
+
     unformatted("Text_3");
 }
 
@@ -672,6 +767,8 @@ void MainWindow::unformatted(QString document_name)
 
 void MainWindow::on_textEdit_Text_1_customContextMenuRequested()
 {
+    textEdit_focused("Text 1");
+
     QAction *actionNew = new QAction(tr("New"), this);
     connect(actionNew, SIGNAL(triggered()), this, SLOT(on_actionNew_Text_1_triggered()));
 
@@ -747,6 +844,8 @@ void MainWindow::on_textEdit_Text_1_customContextMenuRequested()
 
 void MainWindow::on_textEdit_Text_2_customContextMenuRequested()
 {
+    textEdit_focused("Text 2");
+
     QAction *actionNew = new QAction(tr("New"), this);
     connect(actionNew, SIGNAL(triggered()), this, SLOT(on_actionNew_Text_2_triggered()));
 
@@ -822,6 +921,8 @@ void MainWindow::on_textEdit_Text_2_customContextMenuRequested()
 
 void MainWindow::on_textEdit_Text_3_customContextMenuRequested()
 {
+    textEdit_focused("Text 3");
+
     QAction *actionNew = new QAction(tr("New"), this);
     connect(actionNew, SIGNAL(triggered()), this, SLOT(on_actionNew_Text_3_triggered()));
 
@@ -1031,6 +1132,8 @@ void MainWindow::search_word(QString document_name) {
 
 void MainWindow::on_actionFind_in_Text_1_triggered()
 {
+    textEdit_focused("Text 1");
+
     QString str = ui->textEdit_Text_1->toPlainText();
     if (str.isEmpty() || str.isNull()) {
         QMessageBox* warning = new QMessageBox(QMessageBox::Warning, tr("Warning"), tr("File is not open"));
@@ -1040,8 +1143,11 @@ void MainWindow::on_actionFind_in_Text_1_triggered()
     }
     search_word("Text 1");
 }
+
 void MainWindow::on_actionFind_in_Text_2_triggered()
 {
+    textEdit_focused("Text 2");
+
     QString str = ui->textEdit_Text_2->toPlainText();
     if (str.isEmpty() || str.isNull()) {
         QMessageBox* warning = new QMessageBox(QMessageBox::Warning, tr("Warning"), tr("File is not open"));
@@ -1054,6 +1160,8 @@ void MainWindow::on_actionFind_in_Text_2_triggered()
 
 void MainWindow::on_actionFind_in_Text_3_triggered()
 {
+    textEdit_focused("Text 3");
+
     QString str = ui->textEdit_Text_3->toPlainText();
     if (str.isEmpty() || str.isNull()) {
         QMessageBox* warning = new QMessageBox(QMessageBox::Warning, tr("Warning"), tr("File is not open"));
@@ -1066,6 +1174,8 @@ void MainWindow::on_actionFind_in_Text_3_triggered()
 
 void MainWindow::on_actionFind_and_Replace_in_Text_1_triggered()
 {
+    textEdit_focused("Text 1");
+
     QString str = ui->textEdit_Text_1->toPlainText();
     if (str.isEmpty() || str.isNull()) {
         QMessageBox* warning = new QMessageBox(QMessageBox::Warning, tr("Warning"), tr("File is not open"));
@@ -1176,6 +1286,8 @@ void MainWindow::on_actionFind_and_Replace_in_Text_1_triggered()
 
 void MainWindow::on_actionFind_and_Replace_in_Text_2_triggered()
 {
+    textEdit_focused("Text 2");
+
     QString str = ui->textEdit_Text_2->toPlainText();
     if (str.isEmpty() || str.isNull()) {
         QMessageBox* warning = new QMessageBox(QMessageBox::Warning, tr("Warning"), tr("File is not open"));
@@ -1285,6 +1397,8 @@ void MainWindow::on_actionFind_and_Replace_in_Text_2_triggered()
 
 void MainWindow::on_actionFind_and_Replace_in_Text_3_triggered()
 {
+    textEdit_focused("Text 3");
+
     QString str = ui->textEdit_Text_3->toPlainText();
     if (str.isEmpty() || str.isNull()) {
         QMessageBox* warning = new QMessageBox(QMessageBox::Warning, tr("Warning"), tr("File is not open"));
@@ -1394,6 +1508,8 @@ void MainWindow::on_actionFind_and_Replace_in_Text_3_triggered()
 
 void MainWindow::on_actionFind_and_Replace_All_in_Text_1_triggered()
 {
+    textEdit_focused("Text 1");
+
     QString str = ui->textEdit_Text_1->toPlainText();
     if (str.isEmpty() || str.isNull()) {
         QMessageBox* warning = new QMessageBox(QMessageBox::Warning, tr("Warning"), tr("File is not open"));
@@ -1416,6 +1532,8 @@ void MainWindow::on_actionFind_and_Replace_All_in_Text_1_triggered()
 
 void MainWindow::on_actionFind_and_Replace_All_in_Text_2_triggered()
 {
+    textEdit_focused("Text 2");
+
     QString str = ui->textEdit_Text_2->toPlainText();
     if (str.isEmpty() || str.isNull()) {
         QMessageBox* warning = new QMessageBox(QMessageBox::Warning, tr("Warning"), tr("File is not open"));
@@ -1438,6 +1556,8 @@ void MainWindow::on_actionFind_and_Replace_All_in_Text_2_triggered()
 
 void MainWindow::on_actionFind_and_Replace_All_in_Text_3_triggered()
 {
+    textEdit_focused("Text 3");
+
     QString str = ui->textEdit_Text_3->toPlainText();
     if (str.isEmpty() || str.isNull()) {
         QMessageBox* warning = new QMessageBox(QMessageBox::Warning, tr("Warning"), tr("File is not open"));
@@ -1470,5 +1590,52 @@ void MainWindow::on_actionHide_file_paths_and_names_triggered()
     ui->label_dir_1->hide();
     ui->label_dir_2->hide();
     ui->label_dir_3->hide();
+}
+
+//setting highlighted textEdit
+//all the methods that affect textEdits will call this method in the beginning
+void MainWindow::textEdit_focused(QString textEditName) {
+    //setting the chosen textEdit and corresponding label as highlighted
+    if (textEditName == "Text 1") {
+        ui->textEdit_Text_1->setFrameStyle(QFrame::WinPanel | QFrame::Plain);
+        ui->label_Text_1->setStyleSheet("color: rgb(255, 255, 255);background-color: rgb(0, 0, 255);");
+    }
+    else if (textEditName == "Text 2") {
+        ui->textEdit_Text_2->setFrameStyle(QFrame::WinPanel | QFrame::Plain);
+        ui->label_Text_2->setStyleSheet("color: rgb(255, 255, 255);background-color: rgb(0, 0, 255);");
+    }
+    else if (textEditName == "Text 3") {
+        ui->textEdit_Text_3->setFrameStyle(QFrame::WinPanel | QFrame::Plain);
+        ui->label_Text_3->setStyleSheet("color: rgb(255, 255, 255);background-color: rgb(0, 0, 255);");
+    }
+
+    //unsetting highlightening of others
+    if (textEditName != "Text 1") {
+        ui->textEdit_Text_1->setFrameStyle(QFrame::StyledPanel | QFrame::Sunken);
+        ui->label_Text_1->setStyleSheet("color: rgb(0, 0, 0);background-color: rgb(240, 240, 240);");
+    }
+    if (textEditName != "Text 2") {
+        ui->textEdit_Text_2->setFrameStyle(QFrame::StyledPanel | QFrame::Sunken);
+        ui->label_Text_2->setStyleSheet("color: rgb(0, 0, 0);background-color: rgb(240, 240, 240);");
+    }
+    if (textEditName != "Text 3") {
+        ui->textEdit_Text_3->setFrameStyle(QFrame::StyledPanel | QFrame::Sunken);
+        ui->label_Text_3->setStyleSheet("color: rgb(0, 0, 0);background-color: rgb(240, 240, 240);");
+    }
+}
+
+void MainWindow::on_textEdit_Text_1_selectionChanged()
+{
+    textEdit_focused("Text 1");
+}
+
+void MainWindow::on_textEdit_Text_2_selectionChanged()
+{
+    textEdit_focused("Text 2");
+}
+
+void MainWindow::on_textEdit_Text_3_selectionChanged()
+{
+    textEdit_focused("Text 3");
 }
 
