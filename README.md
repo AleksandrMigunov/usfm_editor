@@ -2,6 +2,7 @@
 This is a program for editing USFM files (Paratext files) with English and Russian interface.
 
 Releases: 
+
 USFMEditor_v.0.1_Win64 - installer for Windows (64-bit versions); 
 
 USFMEditor_v.0.1_Win32 - installer for Windows (32-bit versions); 
@@ -16,6 +17,7 @@ In order to download the release that you need, click the link "Releases", choos
 Программа для редактирования файлов USFM (файлов Paratext) с английским и русским интерфейсами.
 
 Релизы: 
+
 USFMEditor_v.0.1_Win64 - инсталлятор для Windows (64-битные версии); 
 
 USFMEditor_v.0.1_Win32 - инсталлятор для Windows (32-битные версии); 
