@@ -27,7 +27,6 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = USFM_editor
 TEMPLATE = app
 
-
 SOURCES += main.cpp\
         mainwindow.cpp \
     converter.cpp \
@@ -47,3 +46,9 @@ FORMS    += mainwindow.ui \
     dialogreplaceall.ui
 
 TRANSLATIONS = main_ru.ts
+
+RESOURCES += \
+    resource.qrc
+
+DISTFILES += 
+
