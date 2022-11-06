@@ -14,13 +14,7 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
-#-------------------------------------------------
-#
-# Project created by QtCreator 2021-04-10T00:39:09
-#
-#-------------------------------------------------
-
-QT       += core gui
+QT       += core gui printsupport
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 

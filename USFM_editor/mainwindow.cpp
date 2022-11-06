@@ -18,21 +18,35 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include <QFile>
+#include <QFileDialog>
+#include <QTextStream>
+#include <QMessageBox>
+#include <QPrinter>
+#include <QPrintDialog>
+#include <QInputDialog>
+#include <QFont>
+#include <QFontDialog>
+#include <QColor>
+#include <QColorDialog>
+#include <QPalette>
+#include <QDateTime>
+#include <QPushButton>
+#include <QTextDocument>
+#include <QTextDocumentWriter>
+#include <QPrintPreviewDialog>
+#include <QPainter>
+#include <QSettings>
+#include <QDesktopWidget>
+#include <QCloseEvent>
+#include <QDir>
+#include <QTextCodec>
+#include <QByteArray>
+#include <QWidget>
 #include "converter.h"
 #include "dialogfind.h"
 #include "dialogreplace.h"
 #include "dialogreplaceall.h"
-#include <QtCore>
-#include <QtGui>
-#include <QWidget>
-#include <QMainWindow>
-#include <QMessageBox>
-#include <QInputDialog>
-#include <QDialog>
-#include <QFileDialog>
-#include <QColorDialog>
-#include <QFontDialog>
-#include <QFileInfo>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -95,6 +109,13 @@ MainWindow::MainWindow(QWidget *parent) :
     text_8_visible = true;
 
     textEdit_focused("Text_1");
+
+    QDesktopWidget desk;
+    QRect rect = desk.availableGeometry();
+    QPoint pos = QPoint(0,0);
+    QSize size = rect.size();
+    resize(size);
+    move(pos);
 }
 
 MainWindow::~MainWindow()

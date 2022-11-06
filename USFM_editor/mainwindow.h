@@ -19,7 +19,16 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include <QtCore>
+#include <QtGui>
+#include <QtWidgets>
 #include <QMainWindow>
+#include <QSettings>
+#include <QCloseEvent>
+#include <QPrinter>
+#include <QTextCodec>
+#include <QString>
+#include <QWidget>
 
 namespace Ui {
 class MainWindow;
